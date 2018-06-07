@@ -1,0 +1,15 @@
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54680
+;; flags: qr rd ra ; qd: 1 an: 3 au: 0 ad: 0
+;; QUESTIONS:
+;;	weberdns.de., type = CAA, class = IN
+
+;; ANSWERS:
+weberdns.de.		3381	IN	CAA	0 iodef "mailto:webmaster@webernetz.net"
+weberdns.de.		3381	IN	CAA	0 issuewild ";"
+weberdns.de.		3381	IN	CAA	0 issue "letsencrypt.org"
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 136 bytes

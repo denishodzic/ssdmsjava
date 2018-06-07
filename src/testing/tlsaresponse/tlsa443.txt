@@ -1,0 +1,13 @@
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64072
+;; flags: qr rd ra ; qd: 1 an: 0 au: 1 ad: 0
+;; QUESTIONS:
+;;	_443._tcp.weberdns.de., type = TLSA, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+weberdns.de.		21	IN	SOA	ns1.weberdns.de. webmaster.webernetz.net. 2018030377 3600 900 2419200 180
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 102 bytes

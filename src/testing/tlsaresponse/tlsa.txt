@@ -1,0 +1,13 @@
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34929
+;; flags: qr rd ra ; qd: 1 an: 1 au: 0 ad: 0
+;; QUESTIONS:
+;;	_25._tcp.mail.weberdns.de., type = TLSA, class = IN
+
+;; ANSWERS:
+_25._tcp.mail.weberdns.de.	3584	IN	TLSA	3 0 1 AE822A14FD5E56C213EEEB5D6755556980CAF4C3F2531C1EC8ECA3076F9B7E68
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 90 bytes

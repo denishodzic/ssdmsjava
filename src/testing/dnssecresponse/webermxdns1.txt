@@ -1,0 +1,15 @@
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11842
+;; flags: qr rd ra ; qd: 1 an: 2 au: 0 ad: 1
+;; QUESTIONS:
+;;	mail.weberdns.de., type = A, class = IN
+
+;; ANSWERS:
+mail.weberdns.de.	3600	IN	A	87.190.30.115
+mail.weberdns.de.	3600	IN	RRSIG	A 8 3 3600 20180626001346 20180527001140 27276 weberdns.de. WAPCc3UMlV9B4fQfhJeEdvs9rsnV1A8f+V1knD3wYraRdxc42Caljin8HFZGeP0bPCKrR/WUa8/Mcmz03nD5q7SRVSSC97fWdK98f0mvVN5iZHJRh2x+LFU2lxavUVm3f3uB/tA7kgHzyVYOCZ6ROnK2mfMiV9H8ukJGbtoZoD4=
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+.			32768	CLASS1280	OPT	 ; payload 1280, xrcode 0, version 0, flags 32768
+
+;; Message size: 232 bytes

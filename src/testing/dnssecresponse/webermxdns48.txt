@@ -1,0 +1,17 @@
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18500
+;; flags: qr rd ra ; qd: 1 an: 0 au: 4 ad: 1
+;; QUESTIONS:
+;;	mail.weberdns.de., type = DNSKEY, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+weberdns.de.		180	IN	SOA	ns1.weberdns.de. webmaster.webernetz.net. 2018030377 3600 900 2419200 180
+mail.weberdns.de.	180	IN	NSEC	_25._tcp.mail.weberdns.de. A AAAA RRSIG NSEC
+weberdns.de.		180	IN	RRSIG	SOA 8 2 3600 20180630191144 20180531181144 27276 weberdns.de. qRo8Eab7x3BWJw5YjCbhQaluptzPJQ3tG3rhOqcudgam8GiX72GEMIzz/MxHJudGj6EkXRMg+lf+dfmVvzrjg6YO2zVEZGdtaqZKKlD2eXwPXdbvSlIoAcmueJqAMUF0XpnWXjX0DlxkCXSpfpn8v8LTRXXG4DzWDkMGy+Xoo2I=
+mail.weberdns.de.	180	IN	RRSIG	NSEC 8 3 180 20180611025622 20180512022515 27276 weberdns.de. ez5PAO0KNQjYIORbJgvFglY8O3p/jXlPhHe8m8IHU40k0cJvCXh5i6lsJMP0F0I1f8ug+KyiRyI+qty7sQ8gBhTxvdVgUhhT6Dg7s6WswMjZ97WYcXKZucFnVU0Tn4fZ6oe2YjxMJsJES+QWKaduSNEohsdbE2ARN8vjwfvdOcA=
+
+;; ADDITIONAL RECORDS:
+.			32768	CLASS1280	OPT	 ; payload 1280, xrcode 0, version 0, flags 32768
+
+;; Message size: 497 bytes

@@ -1,0 +1,15 @@
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24671
+;; flags: qr rd ra ; qd: 1 an: 2 au: 0 ad: 1
+;; QUESTIONS:
+;;	weberdns.de., type = A, class = IN
+
+;; ANSWERS:
+weberdns.de.		3600	IN	A	87.190.30.116
+weberdns.de.		3600	IN	RRSIG	A 8 2 3600 20180617151555 20180518150703 27276 weberdns.de. bzl2RhcVvkg+ITcNPJMa+bf3riBeG8MKIOx4qJfJkacglQ5oSHphTtlkFZdhts/mGuSKDh7iABQm0Z3wwy+JcNNKJL2/8WdJMdQF66sbqIYKv06uwzqb6N2opntVRgiV+V2CjjJ27wDbBIqtG8/gguvupP3TTF2iMyKaA89DGds=
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+.			32768	CLASS1280	OPT	 ; payload 1280, xrcode 0, version 0, flags 32768
+
+;; Message size: 227 bytes
